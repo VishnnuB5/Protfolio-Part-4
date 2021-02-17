@@ -37,3 +37,25 @@ a:link{
 a:visited{
   color:black;
 }
+
+.item{
+  position: relative;
+
+}
+
+.item p{
+  position: absolute;
+  top:5%;
+  left:20%;
+  color:orange;
+  opacity: 0;
+}
+
+.item:hover p{
+  opacity: 5;
+}
+
+.item:hover img{
+  
+  opacity: 0.3;
+}
