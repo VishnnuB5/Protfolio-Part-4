@@ -1,6 +1,8 @@
 h1 {
   color:blue;
+  margin:30px;
 }
+
 *{
   border:solid;
   border-color: yellow;
@@ -27,4 +29,11 @@ h2,p{
 }
 body{
   background-color: orange;
+}
+
+a:link{
+  color:red;
+}
+a:visited{
+  color:black;
 }
